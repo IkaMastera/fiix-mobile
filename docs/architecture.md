@@ -1,0 +1,1 @@
+Fiix mobile monorepo containing customer and technician apps with shared packages.
