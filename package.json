@@ -1,0 +1,27 @@
+{
+  "name": "fiix-mobile",
+  "version": "1.0.0",
+  "description": "Fiix.ge mobile platform — Customer and Technician apps",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "customer": "turbo run start --filter=@fiix/customer",
+    "technician": "turbo run start --filter=@fiix/technician",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "type-check": "turbo run type-check"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.0",
+    "typescript": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IkaMastera/fiix-mobile.git"
+  },
+  "author": "Irakli",
+  "license": "MIT"
+}
