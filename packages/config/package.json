@@ -1,0 +1,10 @@
+{
+    "name": "@fiix/config",
+    "version": "1.0.0",
+    "private": true,
+    "main": "./colors.ts",
+    "exports": {
+      "./tailwind": "./tailwind.config.js",
+      "./colors": "./colors.ts"
+    }
+  }
