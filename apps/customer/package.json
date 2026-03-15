@@ -1,0 +1,32 @@
+{
+  "name": "@fiix/customer",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~55.0.6",
+    "expo-status-bar": "~55.0.4",
+    "expo-linear-gradient": "~14.1.4",
+    "expo-font": "~13.3.1",
+    "@expo-google-fonts/syne": "^0.2.3",
+    "@expo-google-fonts/dm-sans": "^0.2.3",
+    "react": "19.2.0",
+    "react-native": "0.83.2",
+    "@tanstack/react-query": "^5.0.0",
+    "@fiix/ui": "*",
+    "@fiix/types": "*",
+    "@fiix/api-client": "*",
+    "@fiix/config": "*"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "@types/node": "^20.0.0",
+    "typescript": "~5.9.2"
+  }
+}
