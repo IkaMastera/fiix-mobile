@@ -23,5 +23,8 @@
     "url": "git+https://github.com/IkaMastera/fiix-mobile.git"
   },
   "author": "Irakli",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "^5.90.21"
+  }
 }

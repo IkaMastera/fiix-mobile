@@ -1,0 +1,16 @@
+{
+    "name": "@fiix/ui",
+    "version": "1.0.0",
+    "private": true,
+    "main": "./index.ts",
+    "exports": {
+      ".": "./index.ts"
+    },
+    "dependencies": {
+      "@fiix/config": "*"
+    },
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    }
+  }

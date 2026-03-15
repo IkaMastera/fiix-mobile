@@ -1,0 +1,14 @@
+{
+    "name": "@fiix/api-client",
+    "version": "1.0.0",
+    "private": true,
+    "main": "./index.ts",
+    "exports": {
+      ".": "./index.ts"
+    },
+    "dependencies": {
+      "@fiix/types": "*",
+      "@tanstack/react-query": "^5.0.0",
+      "@types/node": "^20.0.0"
+    }
+  }
